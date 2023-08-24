@@ -109,14 +109,14 @@ if plot_bbox:
 if __name__ == '__main__':
 
     plot_bbox = False
-    img_list = np.loadtxt("img_path.out", dtype=str)
+    img_list = np.loadtxt("img_path.out", dtype=str) # img txt list
     # img_list = np.loadtxt("img_path_ir.out",dtype=str)
     # EO/IR
-    img_path_base = "/media/syh/ssd2/data/ReID_MUF_all/all"
+    img_path_base = "/media/syh/ssd2/data/ReID_MUF_all/all" # img path root
     # img_path_base = "/media/syh/ssd2/data/ReID_MUF_ir/all"
     sampling_num = 3
     # EO/IR
-    feats = torch.load("features_msmt.pt")
+    feats = torch.load("features_msmt.pt") # feature pt file
     # feats=torch.load("features_ir.pt")
     # feats=torch.load("../features_msmt.pt")
     feats = feats[::sampling_num]
