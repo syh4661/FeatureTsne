@@ -27,6 +27,3 @@ FeatureTsne는 고차원 데이터의 시각화를 위한 t-SNE 알고리즘을 
 
 [feature_tsne.py 파일 보기](https://github.com/syh4661/FeatureTsne/blob/main/feature_tsne.py)
 
----
-
-현재 무료 플랜을 사용 중이십니다. 요청 횟수에 제한이 있습니다. 할당량을 늘리려면 [여기](https://c7d59216ee8ec59bda5e51ffc17a994d.auth.portal-pluginlab.ai/pricing)에서 사용 가능한 플랜을 확인하세요.
